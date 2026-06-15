@@ -1,22 +1,25 @@
 {
-    "name": "tinyphporg/tinyphp-framework",
+    "name": "aigm/tinyphp-framework",
     "description": "A lightweight and high-performance PHP framework.",
-    "type" : "library",
-    "minimum-stability": "stable",
+    "type": "library",
     "version": "2.0.0",
-    "require" :{
-    	"php" : ">= 7.3.0",
-    	"tinyphporg/tinyphp-docs" : ">= 2.0.0",
-    	"tinyphporg/tinyphp-ui" : ">= 2.0.0",
-    	"smarty/smarty" : ">= 3",
-    	"erusev/parsedown": ">=1.7.4"
+    "require": {
+        "php": ">= 7.3.0",
+        "aigm/tinyphp-docs": ">= 2.0.0",
+        "aigm/tinyphp-ui": ">= 2.0.0",
+        "smarty/smarty": ">= 3",
+        "erusev/parsedown": ">= 1.7.4"
     },
-    "license": "Apache-2.0", 
-    "author" : {
-    	"name" : "Da.Jin",
-    	"email" : "da.jin@tinyphp.org"
-    },
-    "autoload":{
-    "psr-4" : { "Tiny\\":"src/"}
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Da.Jin",
+            "email": "da.jin@tinyphp.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tiny\\": "src/"
+        }
     }
 }
